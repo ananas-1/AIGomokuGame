@@ -1,17 +1,5 @@
 # Gomoku (Five in a Row) – AI Game Solver 🎯
 
-## 👥 Team Members
-- [Your Name] – [ID]
-- [Your Name] – [ID]
-- [Your Name] – [ID]
-- [Your Name] – [ID]
-- [Your Name] – [ID]
-
-## 🧠 TA Group
-- Group: [Your TA Name or Group Number]
-
----
-
 ## 📌 Project Description
 
 This project is an AI-based game solver for **Gomoku (Five in a Row)**. The goal of the game is for a player to get five of their symbols (X or O) in a row either **horizontally, vertically, or diagonally** on a grid-based board.
