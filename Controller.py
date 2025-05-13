@@ -218,6 +218,7 @@ class GomokuGame:
                     print(f"AI (Player {ai_player}) is thinking...")
                     row, col = ai.get_move(self.board)
                     self.board.make_move(row, col)
+                    self.board.print_board()
                     print(f"AI played at ({row}, {col})")
             
             # Game over
