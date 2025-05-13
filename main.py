@@ -29,7 +29,7 @@ def main():
             ai_algo_choice = int(input("Choose AI algorithm (1 or 2): "))
             ai_algorithm = "minimax" if ai_algo_choice == 1 else "alphabeta"
             
-            ai_depth = int(input("Enter AI search depth (3 recommended): "))
+            ai_depth = int(input("Enter AI search depth (2 recommended): "))
             ai_player = int(input("AI plays as player (1 or 2): "))
             
             game.human_vs_ai(ai_algorithm, ai_depth, ai_player)
@@ -41,7 +41,7 @@ def main():
             
             ai1_algo_choice = int(input("Choose AI1 algorithm (1 or 2): "))
             ai1_algorithm = "minimax" if ai1_algo_choice == 1 else "alphabeta"
-            ai1_depth = int(input("Enter AI1 search depth (3 recommended): "))
+            ai1_depth = int(input("Enter AI1 search depth (2 recommended): "))
             
             print("AI2 (Player 2) Algorithm options:")
             print("1. Minimax")
@@ -49,7 +49,7 @@ def main():
             
             ai2_algo_choice = int(input("Choose AI2 algorithm (1 or 2): "))
             ai2_algorithm = "minimax" if ai2_algo_choice == 1 else "alphabeta"
-            ai2_depth = int(input("Enter AI2 search depth (3 recommended): "))
+            ai2_depth = int(input("Enter AI2 search depth (2 recommended): "))
             
             max_moves = int(input("Enter maximum number of moves (100 recommended): "))
             
